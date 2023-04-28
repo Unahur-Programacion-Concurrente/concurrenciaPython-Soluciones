@@ -21,7 +21,7 @@ def crearAnimacion(a, b, char):
     print("Este es el proceso %d"%multiprocessing.current_process().pid)
     mylabel = createLabel(a=a,b=b)
     texto=""
-    retardo: float=0.25
+    retardo: float=0.45
     for i in range(0,35):
         time.sleep(retardo)
         texto += char
